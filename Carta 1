@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    prinf("Desafio 1- Cartas do Super Trunfo!\n");
     char estado[20] = "DF";
     char codigo[10] = "A61";
     int populacao = ("2817381");
