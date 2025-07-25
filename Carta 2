@@ -3,7 +3,7 @@
 int main() {
     prinf("Desafio 2- Cartas do Super Trunfo!\n");
     char estado[20] = "MG";
-    char codigo[10] = "A32";
+    char codigo[10] = "B32";
     int populacao = "540756";
     float area = 14357;
     char cidade[20] = "Juiz de fora";
