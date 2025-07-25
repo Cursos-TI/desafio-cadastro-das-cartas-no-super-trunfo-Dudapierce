@@ -13,7 +13,6 @@ int main() {
     printf("Digite o nome do estado: \n");
     scanf("%s", estado);
 
-
     printf("Digite o código do estado: \n");
     scanf("%s", codigo);
     
