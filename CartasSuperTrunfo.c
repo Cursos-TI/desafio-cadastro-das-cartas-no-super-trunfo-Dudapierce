@@ -4,13 +4,13 @@ int main() {
     // Carta 1
     printf("Desafio 1 - Cartas do Super Trunfo!\n");
 
-    char estado1[20] = "MG";
-    char codigo1[10] = "A32";
-    int populacao1 = 540756;
-    float area1 = 14357;
-    char cidade1[30] = "Juiz de fora";
-    double pib1 = 857600000000000;
-    int turisticos1 = 32;
+    char estado1[20];
+    char codigo1[10];
+    int populacao1;
+    float area1;
+    char cidade1[30];
+    double pib1;
+    int turisticos1;
 
     printf("Digite o nome do estado:\n");
     scanf(" %[^\n]", estado1);
@@ -24,8 +24,6 @@ int main() {
     printf("Digite a área do estado:\n");
     scanf("%f", &area1);
 
-    getchar(); // limpa o \n
-
     printf("Digite o nome da cidade:\n");
     scanf(" %[^\n]", cidade1);
 
@@ -38,13 +36,13 @@ int main() {
     // Carta 2
     printf("\nDesafio 2 - Cartas do Super Trunfo!\n");
 
-    char estado2[20] = "DF";
-    char codigo2[10] = "B61";
-    int populacao2 = 2817381;
-    float area2 = 5760784;
-    char cidade2[30] = "Brasília";
-    double pib2 = 32880000000000000.0;
-    int turisticos2 = 32;
+    char estado2[20];
+    char codigo2[10];
+    int populacao2;
+    float area2;
+    char cidade2[30];
+    double pib2;
+    int turisticos2;
 
     printf("Digite o nome do estado:\n");
     scanf(" %[^\n]", estado2);
@@ -58,8 +56,6 @@ int main() {
     printf("Digite a área do estado:\n");
     scanf("%f", &area2);
 
-    getchar(); // limpa o \n
-
     printf("Digite o nome da cidade:\n");
     scanf(" %[^\n]", cidade2);
 
@@ -69,7 +65,7 @@ int main() {
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &turisticos2);
 
-    // Impressão dos dados
+    // Impressão
     printf("\n==============================\n");
     printf("       DADOS DA CARTA 1\n");
     printf("==============================\n");
