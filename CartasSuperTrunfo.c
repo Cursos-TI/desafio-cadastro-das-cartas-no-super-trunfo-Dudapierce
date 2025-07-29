@@ -5,11 +5,11 @@ int main() {
     printf("Desafio 1 - Cartas do Super Trunfo!\n");
 
     char estado1[20] = "MG";
-    char codigo1[20] = "A32";
-    int populacao1 = 540756;
+    char codigo1[10] = "A32";
+    int populacao1  = 540756;
     float area1 = 14357;
-    char cidade1[30] = "Juiz de fora";
-    double pib1 = 857600000000000;
+    char cidade1[30] = "Juiz de Fora";
+    double pib1 = 857600000000000.0;
     int turisticos1 = 32;
 
     printf("Digite o nome do estado:\n");
@@ -38,7 +38,7 @@ int main() {
 
     char estado2[20] = "DF";
     char codigo2[10] = "B61";
-    int populacao2 = 2817381;
+    int populacao2  = 2817381;
     float area2 = 5760784;
     char cidade2[30] = "Brasília";
     double pib2 = 32880000000000000.0;
@@ -65,7 +65,7 @@ int main() {
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &turisticos2);
 
-    // Impressão
+    // Impressão dos dados
     printf("\n==============================\n");
     printf("       DADOS DA CARTA 1\n");
     printf("==============================\n");
@@ -88,5 +88,5 @@ int main() {
     printf("PIB: %.2lf bilhões de reais\n", pib2);
     printf("Pontos Turísticos: %d\n", turisticos2);
 
-    return 0;
+    return 0
 }
