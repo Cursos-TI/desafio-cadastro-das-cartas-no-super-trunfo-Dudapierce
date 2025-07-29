@@ -13,7 +13,7 @@ int main() {
     int turisticos1 = 32;
 
     printf("Digite o nome do estado:\n");
-    scanf(" %[^\n]", estado1);
+    scanf(" %[^\\n]", estado1);
 
     printf("Digite o código do estado:\n");
     scanf("%s", codigo1);
@@ -45,7 +45,7 @@ int main() {
     int turisticos2 = 32;
 
     printf("Digite o nome do estado:\n");
-    scanf(" %[^\n]", estado2);
+    scanf(" %[^\\n]", estado2);
 
     printf("Digite o código do estado:\n");
     scanf("%s", codigo2);
