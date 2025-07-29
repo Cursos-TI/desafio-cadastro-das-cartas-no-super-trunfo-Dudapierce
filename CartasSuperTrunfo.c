@@ -5,7 +5,7 @@ int main() {
     printf("Desafio 1 - Cartas do Super Trunfo!\n");
 
     char estado1[20] = "MG";
-    char codigo1[10] = "A32";
+    char codigo1[20] = "A32";
     int populacao1 = 540756;
     float area1 = 14357;
     char cidade1[30] = "Juiz de fora";
