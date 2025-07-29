@@ -15,7 +15,7 @@ int main() {
     printf("Digite o nome do estado:\n");
     scanf(" %[^\n]", estado1);
 
-    printf("Digite o código do estado:\n");
+    printf("Digite o codigo:\n");
     scanf("%s", codigo1);
 
     printf("Digite a população do estado:\n");
@@ -47,7 +47,7 @@ int main() {
     printf("Digite o nome do estado:\n");
     scanf(" %[^\n]", estado2);
 
-    printf("Digite o código do estado:\n");
+    printf("Digite o código:\n");
     scanf("%s", codigo2);
 
     printf("Digite a população do estado:\n");
