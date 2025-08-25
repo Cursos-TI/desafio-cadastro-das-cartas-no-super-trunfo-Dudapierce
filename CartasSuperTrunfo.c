@@ -1,18 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Carta 1
-    printf("Desafio 1 - Cartas do Super Trunfo!\n");
-
-    char estado1[20] = "MG";
-    char codigo1[10] = "A32";
-    int populacao1  = 540756;
-    float area1 = 14357;
-    char cidade1[30] = "Juiz de Fora";
-    double pib1 = 857600000000000.0;
-#include <stdio.h>
-
-int main() {
     // Dados da carta 1
     char estado1[20] = "MG";
     char codigo1[10] = "A32";
@@ -26,17 +14,17 @@ int main() {
 
     // Leitura da carta 1
     printf("Digite os dados da Carta 1:\n");
-    printf("Estado: ");
+    printf(" Digite o Estado: ");
     scanf(" %[^\n]", estado1);
-    printf("Código: ");
+    printf("Digite o Código: ");
     scanf("%s", codigo1);
-    printf("Cidade: ");
+    printf("Digite a Cidade: ");
     scanf(" %[^\n]", cidade1);
-    printf("População: ");
+    printf("Digite a População: ");
     scanf("%d", &populacao1);
-    printf("Área (em km²): ");
+    printf("Digite a Área (em km²): ");
     scanf("%f", &area1);
-    printf("PIB (em bilhões de reais): ");
+    printf("Digite o PIB (em bilhões de reais): ");
     scanf("%lf", &pib1);
     printf("Número de pontos turísticos: ");
     scanf("%d", &turisticos1);
@@ -58,17 +46,17 @@ int main() {
 
     // Leitura da carta 2
     printf("\nDigite os dados da Carta 2:\n");
-    printf("Estado: ");
+    printf("Digite o Estado: ");
     scanf(" %[^\n]", estado2);
-    printf("Código: ");
+    printf("Digite o Código: ");
     scanf("%s", codigo2);
-    printf("Cidade: ");
+    printf("Digite a Cidade: ");
     scanf(" %[^\n]", cidade2);
-    printf("População: ");
+    printf("Digite a População: ");
     scanf("%d", &populacao2);
-    printf("Área (em km²): ");
+    printf("Digite a Área (em km²): ");
     scanf("%f", &area2);
-    printf("PIB (em bilhões de reais): ");
+    printf("Digite o PIB (em bilhões de reais): ");
     scanf("%lf", &pib2);
     printf("Número de pontos turísticos: ");
     scanf("%d", &turisticos2);
@@ -106,3 +94,4 @@ int main() {
 
     return 0;
 }
+
