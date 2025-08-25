@@ -42,7 +42,7 @@ int main() {
     float area2 = 5760784.0; // em km²
     float densidade2 = 489.1; // hab./km²
     double pib2 = 32880000000000000.0; // em bilhões de reais
-    double pibPerCapita2 = 116713.39; // em reaisS
+    double pibPerCapita2 = 116713.39; // em reais
 
     // Leitura da carta 2
     printf("\nDigite os dados da Carta 2:\n");
