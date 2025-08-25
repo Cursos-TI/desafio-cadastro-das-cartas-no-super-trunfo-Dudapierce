@@ -10,7 +10,7 @@ int main() {
     float area1 = 14357.0; // em km²
     float densidade1 = 376.64; // hab./km²
     double pib1 = 857600000000000.0; // em bilhões de reais
-    double pibPerCapita1 = 6200.0; // em reais
+    float pibPerCapita1 = 6200.0; // em reais
 
     // Leitura da carta 1
     printf("Digite os dados da Carta 1:\n");
@@ -42,7 +42,7 @@ int main() {
     float area2 = 5760784.0; // em km²
     float densidade2 = 489.1; // hab./km²
     double pib2 = 32880000000000000.0; // em bilhões de reais
-    double pibPerCapita2 = 116713.39; // em reais
+    float pibPerCapita2 = 116713.39; // em reais
 
     // Leitura da carta 2
     printf("\nDigite os dados da Carta 2:\n");
