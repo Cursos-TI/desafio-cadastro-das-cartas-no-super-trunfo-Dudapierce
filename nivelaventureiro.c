@@ -65,6 +65,11 @@ int main() {
     densidade2 = populacao2 / area2;
     pibPerCapita2 = (pib2 * 1000000000.0) / populacao2;
 
+     // Cálculo do Super Poder
+    double superpoder1 = populacao1 + area1 + pib1 + turisticos1 + pibPerCapita1 - densidade1;
+    double superpoder2 = populacao2 + area2 + pib2 + turisticos2 + pibPerCapita2 - densidade2;
+
+
     // Impressão dos dados
     printf("\n==============================\n");
     printf("       DADOS DA CARTA 1\n");
@@ -91,6 +96,12 @@ int main() {
     printf("Pontos Turísticos: %d\n", turisticos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
+
+
+     // Determinar a carta vencedora
+    if (superpoder1 > superpoder2) 
+        printf("\n A Carta 2 é a vencedora!\n");
+
 
     return 0;
 }
